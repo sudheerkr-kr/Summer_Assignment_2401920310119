@@ -31,7 +31,7 @@ public:
            while(count){
                 chars[index++] =(count%10)+ '0';
                 count /= 10;
-            }
+        }
             reverse(chars.begin()+start,chars.begin()+index);
         }
         return index;
