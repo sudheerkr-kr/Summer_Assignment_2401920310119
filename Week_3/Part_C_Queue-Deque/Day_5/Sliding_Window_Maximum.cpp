@@ -5,7 +5,6 @@ public:
         vector<int> ans;
 
         int n = nums.size();
-
         for(int i = 0; i < n; i++){
             //remove indices outside the window
             while(!dq.empty() && dq.front() <= i - k){
